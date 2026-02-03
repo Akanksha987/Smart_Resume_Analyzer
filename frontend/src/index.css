@@ -1,0 +1,128 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* Main App Container */
+div {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+h2 {
+  margin: 20px 0;
+  color: #34495e;
+}
+
+h3 {
+  margin: 15px 0 10px;
+  color: #2c3e50;
+}
+
+/* Resume Upload Section */
+select {
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  font-size: 14px;
+}
+
+/* Buttons */
+button {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Score Card */
+h2 {
+  background-color: #ecf0f1;
+  padding: 15px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+/* Skill Lists */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  background-color: white;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  border-left: 4px solid #3498db;
+}
+
+/* Matched vs Missing */
+li:nth-child(even) {
+  border-left-color: #2ecc71;
+}
+
+li:nth-child(odd) {
+  border-left-color: #e74c3c;
+}
+
+/* Suggestions Box */
+p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Card Effect */
+div > div {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  textarea {
+    height: 120px;
+  }
+
+  button {
+    width: 100%;
+  }
+}

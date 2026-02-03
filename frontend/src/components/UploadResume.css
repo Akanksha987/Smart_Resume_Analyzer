@@ -23,3 +23,16 @@
 .upload-button:hover {
   background-color: #0056b3;
 }
+
+.file-warning {
+  margin-top: 8px;
+  color: #b04;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.upload-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  background-color: #6ea4ff;
+}

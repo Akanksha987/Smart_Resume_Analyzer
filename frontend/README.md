@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+---
+
+Note: This project now uses `pdfjs-dist` for in-browser PDF text extraction. After pulling the latest changes, run the following in the `frontend` folder to install the new dependency:
+
+```bash
+npm install
+# or to only install pdfjs-dist:
+# npm install pdfjs-dist
+```
+
+If you see errors about missing modules or PDF worker issues, stop and restart the dev server after installing packages.
